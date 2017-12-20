@@ -1,0 +1,146 @@
+/*******/
+/*loginm.php*/
+/******/
+
+header{
+    width: 100% !important;
+}
+
+header#h2 > .container > h1{
+    text-align: center;
+}
+section#form {
+    padding: 50px 0;
+}
+
+section#form > .container{
+    text-align: center;
+}
+
+section#form > .container .label{
+    font-size: 1.5em;
+    padding: 5px 0;
+}
+section#form > .container .submit{
+    padding: 5px 0;
+    padding-top:15px;
+}
+section#form > .container .reset{
+    padding: 0px 0;
+}
+
+section#form > .container input[type=text]{
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid lightseagreen;
+}
+section#form > .container input[type=password]{
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid lightseagreen;
+}
+section#form > .container input[type=text]::-webkit-input-placeholder, input[type=password]::-webkit-input-placeholder{
+    font-weight: lighter;
+    color: #ababab;
+    font-family: 'Abel', Fallback, sans-serif !important;
+}
+section#menu > .container input[type=text]{
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid lightseagreen;
+}
+section#menu > .container input[type=password]{
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid lightseagreen;
+}
+section#menu > .container input[type=text]::-webkit-input-placeholder, input[type=password]::-webkit-input-placeholder{
+    font-weight: lighter;
+    color: #ababab;
+    font-family: 'Abel', Fallback, sans-serif !important;
+}
+section#form > .container input[type=text]:focus, input[type=password]:focus{
+
+    border: 1px solid seagreen;
+    box-shadow: none;
+
+}
+section#form > .container input[type=button], input[type=submit], input[type=reset] {
+    background-color: lightseagreen;
+    font-family: 'Abel', Fallback, sans-serif !important;
+    font-size: 1.2em;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    width: 314px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+section#menu  input[type=submit] {
+    background-color: rgb(52, 152, 219);
+    font-family: 'Abel', Fallback, sans-serif !important;
+    font-size: 1.2em;
+    border: none;
+    text-align: left;
+    color: white;
+    padding: 8px 20px;
+    width: 65px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+section#form > .container .label p{
+    text-align: 1.2em;
+    color: crimson;
+}
+
+section#menu textarea{
+    border: 1px solid lightseagreen;
+    font-family: 'Abel', Fallback, sans-serif !important;
+    font-size: 1.2em;
+    color: dimgray;
+    width: 308px;
+    margin-top: 15px;
+    text-decoration: none;
+    height: 200px;
+    font-size: 1.5em;
+}
+
+/*
+    admin.php
+*/
+
+ul#adminOptions{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul#adminOptions>li{
+    display: inline-table;
+    margin-right:5px;
+}
+ul#adminOptions>li>form>a{
+    text-decoration: none;
+}
+ul#adminOptions>li>form>a>i{
+    color: #fff;
+    font-size: 5em;
+    padding: 40px;
+    cursor: pointer;
+}
+
+#menu .container .labels{
+    float: left;
+    width: 100px;
+}
+#menu .container .inputs{
+    float: left;
+    width: 250px;
+}
+#menu .container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
